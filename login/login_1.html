@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- <link rel="stylesheet" href="login.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+    body{
+        background-image: url(https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/05/ChMkJ1bKyTGIObQPACoBh87W19cAALIKwHBsJIAKgGf355.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #login-box {
+        width: 30%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10%;
+        text-align: center;
+        background: #00000090;
+        padding: 20px 50px;
+        color: #ffffff;
+    } 
+
+    #login-box .form .item{
+        margin-top: 15px;
+    }
+
+    #login-box .form .item i{
+        font-size: 18px;
+    }
+
+    #login-box .form .item input{
+        border: 0;
+        border-bottom: 2px solid #ffffff;
+        padding: 5px 10px;
+        background: #ffffff00;
+        color: #ffffff;
+        width: 180px;
+        font-size: 18px;
+    }
+    button{
+        margin-top: 15px;
+        width: 180px;
+        height: 30px;
+        font-size: 20px;
+        /* font-weight: 700; */
+        color: gray;
+        /* background-image: linear-gradient(to right, #db3125 0%, #578bc3 100%);
+        border: 0;
+        border-radius: 15px; */
+    }
+    </style>
+  </head>
+  <body>    
+    <div id="login-box">
+      <h1>Login</h1>
+      <div class="form">
+        <div class="item">
+          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+          <input type="text" placeholder="Username" />
+        </div>
+        <div class="item">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <input type="text" placeholder="Password" />
+        </div>
+      </div>
+      <button>Login</button>
+    </div>
+  </body>
+</html>
